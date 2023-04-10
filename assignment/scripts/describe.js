@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create variable name and set is value to Dane
+// if the name is 'Mary' say 'Hi, Mary!'.
+// if the name is not 'Mary' then output 'How do you do?'.
+
 
 //CODE
 /*
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create variable secret
+//create variable code with value of 123
+// if the code is equal to 123 set the value of secret to be 'super' and double the value of code.
+// if the code is greater than 250 secret is then set to 'duper'
+// secret is called and prints 'super' because even after code is doubled to 246 it is less than 250.
 
 //CODE
 /*
@@ -70,10 +71,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create student and other variables 
+// if they are a student and the zip code is greater than 8000 print "you're a student on the west coast"
+//if student is false and or is older than 30 print'what are your hobbies'
+// if they are a student but have a a zip code than than 80000 print welcome to prime. The else if is important because (nxt line)
+// if student is true it could print both welcome to prime and student on the west coast
+
 
 //CODE
 /*
@@ -128,6 +131,18 @@ if (number >= 2) {
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
+/*
+to fix this 
+let colorOne = 'blue';
+let colorTwo = 'red';
+let mix = true;
+
+if(mix = true){
+colorOne = 'purple';
+colorTwo = 'purple';
+}
+*/
+
 
 /*
 let colorOne = 'red';
@@ -143,6 +158,17 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
+// to fix this 
+/*
+let temp = 40;
+let time = 4;
+if (temp > 39 && time >=4){
+  console.log('throw away the food');
+else {
+  console.log('dont throw away the food);
+}
+*/
+
 /*
 let temp = 40;
 const time = 4;
@@ -155,6 +181,11 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+// to fix swap the out puts for if minAge <= age because currently it is outputing 'no entry'.
+
+
+
 
 /*
 let age = 21;
