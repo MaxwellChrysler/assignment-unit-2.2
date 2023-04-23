@@ -29,6 +29,8 @@ if (number >= 2) {
 // create variable name and set is value to Dane
 // if the name is 'Mary' say 'Hi, Mary!'.
 // if the name is not 'Mary' then output 'How do you do?'.
+// This is my correction
+// console.log will return 'How do you do?'.
 
 
 //CODE
@@ -73,13 +75,32 @@ console.log(secret)
 // 3. WRITE YOUR DESCRIPTION HERE
 // Create student and other variables 
 // if they are a student and the zip code is greater than 8000 print "you're a student on the west coast"
-//if student is false and or is older than 30 print'what are your hobbies'
+// if student is false and or is older than 30 print'what are your hobbies'
 // if they are a student but have a a zip code than than 80000 print welcome to prime. The else if is important because (nxt line)
 // if student is true it could print both welcome to prime and student on the west coast
 
 
+// this is my correction 
+
+// Created variables isStudent and its true
+// Created variable age which is 34
+// Created variable zip which is 55407
+// Running through the first if statment. They are a student but the zip code is less than 80000, so it does not output "you're a student on the west coast"
+// because the first if statment is false we check the first if else.
+// the first part of the argument is false because we are a student. but then we check the second part because of the or
+// This is also false because our age is greater than 30, so we do not output 'what are your hobbies?'.
+// we go to the second if else and we are a student so it will be true and will return 'Welcome to Prime'.
+// finally the else statment will not be reached because we have already gotten a console.log('Welcome to Prime!').
+
+
+// if they are a student and the zip code is greater than 8000 print "you're a student on the west coast" this does not output
+// if student is false and or is older than 30 print'what are your hobbies' this 
+// if they are a student but have a a zip code than than 80000 print welcome to prime. The else if is important because (nxt line)
+// if student is true it could print both welcome to prime and student on the west coast
 //CODE
 /*
+
+
 let isStudent = true;
 let age = 34;
 let zip = 55407;
